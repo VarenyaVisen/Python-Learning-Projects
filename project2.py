@@ -21,7 +21,7 @@ elif sign == "/":
     if operand2 != 0:
         result = operand / operand2
     else:
-        print("Division by zero.")
+        print("ERROR : Division by zero.")
 elif sign == "*":
     result = operand * operand2
 elif sign == "%":
@@ -29,4 +29,4 @@ elif sign == "%":
 else:
     print("Invalid sign.")
 
-print("The out put is :",result)
+print("The final result is :",result)
